@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'neueTextVariable';
+  src:  url('./assets/typefaces/NeueTextLCGVariable.ttf');
+  font-weight: 800 900;
+}
+
+body{
+	cursor: none;
+}
+
+*{
+	font-family: neueTextVariable;
+}
+section{
+	margin: 80px auto;
+	width:80vw;
+	height: 80vh;
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto auto;
+}
+
+section div{
+	font-size: 10vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+		font-family: neueTextVariable;
+}
+
+.cursor{
+
+	position: absolute;
+	/* height: 10px;
+	width: 10px; */
+	background-color: #E42A1D;
+/*	just as a default position*/
+	top: -100;
+	left: -100;
+	
+}
+
+
+#year{
+	position:absolute;
+	transform:translate(-50%,-50%);
+	height:35px;
+	width:35px;
+	font-size: 50px;
+	/* border-radius:50%;
+	border:2px solid black; */
+	color: #E42A1D;
+	z-index: 10;
+  }
