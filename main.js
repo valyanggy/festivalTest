@@ -20,9 +20,9 @@ document.addEventListener("mousemove", function (event) {
 
 
     // use this function as a template for angle calculation
-    const score = Math.exp(dist * -0.003)
+    const score = Math.exp(dist * -0.007)
     
-    div.style.transform = "scale(" + score * 3 + ")" + `rotate(${saturate}deg)`;
+    div.style.transform = "scale(" + score * 2 + ")" + `rotate(${saturate}deg)`;
     // div.style.fontWeight = 100 + (100 * Math.floor(8 * score))
 
     // var score = Math.floor((Math.exp(dist*-0.003))*800)

@@ -6,21 +6,25 @@
 
 body{
 	cursor: none;
+	height: 100%;
+	background-color: rgb(0, 0, 0);
 }
 
 *{
 	font-family: neueTextVariable;
 }
 section{
-	margin: 80px auto;
+	margin: 330px auto;
+	margin-top: 10px;
 	width:80vw;
-	height: 80vh;
+	height: 90vh;
 	display: grid;
-	grid-template-columns: auto auto auto auto auto auto auto auto;
+	grid-template-columns:auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
 }
 
 section div{
-	font-size: 10vw;
+	background-color: #E42A1D;
+	/* font-size: 10vw; */
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -32,7 +36,7 @@ section div{
 	position: absolute;
 	/* height: 10px;
 	width: 10px; */
-	background-color: #E42A1D;
+	background-color: #ffffff;
 /*	just as a default position*/
 	top: -100;
 	left: -100;
@@ -48,6 +52,30 @@ section div{
 	font-size: 50px;
 	/* border-radius:50%;
 	border:2px solid black; */
-	color: #E42A1D;
+	color: #ffffff;
 	z-index: 10;
   }
+
+
+#stencil{
+	position:absolute;
+	top:-600px;
+	right:-810px;
+	/* display: none; */
+
+}
+
+/* img #stencil{
+	width:
+} */
+
+
+.red{
+	background-color: #E42A1D;
+}
+
+.white{
+	background-color: #ffffff;
+	background-color: #E42A1D;
+
+}
